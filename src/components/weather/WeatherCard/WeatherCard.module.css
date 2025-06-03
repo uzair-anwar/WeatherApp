@@ -1,0 +1,63 @@
+/* Weather card */
+.weatherCard {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  color: #222;
+  text-align: left;
+}
+
+.weatherCard h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.weatherCard img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.temp {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin: 0.5rem 0;
+  text-align: center;
+  background: linear-gradient(135deg, #64b5f6, #42a5f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.details li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+.details li:last-child {
+  border-bottom: none;
+} 
